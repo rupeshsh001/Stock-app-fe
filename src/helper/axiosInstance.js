@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import axios from "axios";
+// for local
+// const baseURL = "http://localhost:4000/stocks";
 
-const baseURL = "http://localhost:4000/stocks";
+const baseURL = "https://stock-app-be-rupesh.onrender.com/stocks";
 
 let headers = {};
 
