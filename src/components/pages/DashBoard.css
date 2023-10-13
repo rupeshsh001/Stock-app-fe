@@ -1,0 +1,67 @@
+.main-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(50% - 20px);
+    min-height: 50px;
+    background-color: var(--color-primary);
+    margin: 10px;
+    color: var(--color-secondary);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 5px var(--color-secondary);
+}
+
+h4 {
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: bold;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.price-heart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-input-container {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    border: 1px solid var(--color-primary);
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 500px;
+    background-color: var(--color-tertiary);
+    border-radius: 100px;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+    margin-left: 3px;
+    background-color: transparent;
+    width: 100%;
+    color: var(--color-primary);
+}
